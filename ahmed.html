@@ -1,0 +1,29 @@
+{% extends "../base.html" %}
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-3" id="one">asdasadass</div>
+        <div class="col">
+            {% if names %}
+            {% for name in names%}
+            <p>name</p>
+            {% endfor %}
+            <div class="card">
+                <h5 ><a href="/divers/diver/{{ names.id }}/">{{ names }}</a></h5>
+                <p>{{names.cert}}</p>
+                <p>Diver location : {{names.location}}</p>
+                <img src="{{ names.image.url }}" id="personal-photo"/>
+            </div>
+            {% else %}
+            <p>No divers are available.</p>
+            {% endif %}
+        </div>
+
+    </div>
+
+
+</div>
+
+{% endblock content %}
+     // {{ dataform.date.label_tag }}
+        {{ dataform.date }}//

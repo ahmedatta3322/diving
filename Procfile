@@ -1,0 +1,1 @@
+web: gunicorn diving.wsgi --log-file -
