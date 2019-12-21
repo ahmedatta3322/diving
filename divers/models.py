@@ -1,20 +1,15 @@
 from django.db import models
+import os
 
 # Create your models here.
-class divers(models.Model):
+class Divers(models.Model):
     name = models.CharField(max_length=50)
-    username = models.CharField(max_length=50)
-    password = models.CharField(max_length=50)
+    email = models.EmailField()
     age = models.IntegerField()
-    nationalty = models.CharField(max_length=50)
-    cert = models.CharField(max_length=50)
-    numberofdives = models.IntegerField()
-    location = models.CharField(max_length=50)
-    availibilty = models.CharField(max_length=50)
-    image = models.ImageField(null=True,upload_to='divers/')
-    gcost = models.PositiveSmallIntegerField(null=True)
-    icost = models.PositiveIntegerField(null=True)
-    
-    def __str__(self):
-        return self.name 
-    
+    user_name = models.CharField(max_length=50)
+    photo = models.ImageField()
+    cert = models.CharField(max_length=50,default="Dive master")
+    n_dives = models.IntegerField(default=1)
+    padi_code = models.IntegerField(default=0)
+
+

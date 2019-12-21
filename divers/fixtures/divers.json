@@ -1,0 +1,59 @@
+[
+    {
+        "model": "divers.divers",
+        "pk": 2,
+        "fields": {
+            "name": "ahmed",
+            "email": "ahmedatta3322@gmail.com",
+            "age": 23,
+            "user_name": "ahmedatta",
+            "photo": "http://127.0.0.1:8000/media/thum.PNG",
+            "cert": "Dive master",
+            "n_dives": 23,
+            "padi_code": 12
+        }
+    },
+    {
+        "model": "divers.divers",
+        "pk": 3,
+        "fields": {
+            "name": "armany",
+            "email": "ahmedatta3322@gmail.com",
+            "age": 23,
+            "user_name": "ahmedatta",
+            "photo": "http://127.0.0.1:8000/media/back.PNG",
+            "cert": "Dive master",
+            "n_dives": 23,
+            "padi_code": 12
+        }
+    },
+    {
+        "model": "divers.divers",
+        "pk": 4,
+        "fields": {
+            "name": "ahmed",
+            "email": "ahmedatta3322@gmail.com",
+            "age": 23,
+            "user_name": "ahmedatta",
+            "photo": "http://127.0.0.1:8000/media/thum.PNG",
+            "cert": "Dive master",
+            "n_dives": 23,
+            "padi_code": 12
+        }
+    },
+    {
+        "model": "divers.divers",
+        "pk": 5,
+        "fields": {
+            "name": "armany",
+            "email": "ahmedatta3322@gmail.com",
+            "age": 23,
+            "user_name": "ahmedatta",
+            "photo": "http://127.0.0.1:8000/media/back.PNG",
+            "cert": "Dive master",
+            "n_dives": 23,
+            "padi_code": 12
+        }
+    }
+
+]
