@@ -22,7 +22,7 @@ export default class Register extends Component {
     }
     handlesub(e){
       
-      
+    
       e.preventDefault();
       const formdata = new FormData()
       
@@ -36,7 +36,7 @@ export default class Register extends Component {
       ).then(res => console.log(res.data)
       ).then(data => console.log(data))
       
-     
+
           this.setState({
             name: "",
             email: "",

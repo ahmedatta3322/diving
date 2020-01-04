@@ -25,6 +25,7 @@ from django.conf import settings
 #path("divers/" , include(router.urls))
 urlpatterns = [
     path("divers/" , views.divers.as_view()),
+    path("courses/", views.courses.as_view()),
     path("",include('frontend.urls')),
     path("admin" , admin.site.urls)
     

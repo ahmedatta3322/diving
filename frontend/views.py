@@ -6,3 +6,7 @@ def index(request):
     return render(request, "frontend/index.html")
 def register(request):
     return render(request, "frontend/register.html")
+def create(request):
+    return render(request, "frontend/create.html")
+def view(request):
+    return render(request, "frontend/view.html")

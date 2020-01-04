@@ -1,0 +1,1 @@
+import Register from "./components/courses/Create.js";
